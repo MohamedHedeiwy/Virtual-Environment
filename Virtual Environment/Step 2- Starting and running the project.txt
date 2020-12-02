@@ -10,4 +10,5 @@ After you run the command compy the URL path provided into your web browser
 press CTRL + C to exsit
 
 
-#After that move to Django basics folder to continue with learning django basics
+#After that move to Django project startup folder to continue with learning django basics and how to initiate a project
+
