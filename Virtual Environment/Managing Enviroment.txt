@@ -1,0 +1,12 @@
+#Check installed packages
+In order to find out which packages are installed on your virtual enviroment run this command: pip freeze
+
+#Copying packages to text file
+lets say you are working on another computer or another person wants to use the program,
+first they will need to install the correct package version to get the system up and running,
+so you can copy the package version that you used in your enviroment variables into a text file,
+where then they can have access to that file and immediately install the correct package version,
+to copy these package version into a text file run this command: pip freeze > requirements.txt  --> name of the text file that you created
+
+After that a file will be created either send it to them or upload it on github then they can install the packages by
+running this command: pip install -r requirements.txt

@@ -1,0 +1,30 @@
+First run this command in cmd: pip3 install virtualenvwrapper-win, if it gives you error then run this command: pip3 install --user virtualenvwrapper-win 
+OR you can just reopen cmd as admin and run the first command again
+
+Now you have installed the wrapper, now we are going to create an environment
+
+#Create environment
+Run this command in the cmd or terminal: mkvirtualenv test --> (Name_of_Environment)
+After you run the command now your in test environment
+
+#Create a directory with the same name as our virtual environment in our preferred development folder
+Navigate to that place through the cmd, after you go there run this command: "setprojectdir ." dont include prentices
+this will bind our virtualenv with our current working directory
+Now anything you do in that directory will be add to the virtual environment
+
+#Exist environment:
+To exist from the environment you write deactivate
+
+#Access environment:
+To go back again inside the environment you run this command in terminal: name of the environment --> test\scripts\activate
+OR workon test --> (Name_of_Environment)
+
+#Existing environment
+run this command to find all the created environment: lsvirtualenv
+
+#Django version
+run this to check version django-admin --version
+
+
+
+CHECK THIS WEBSITE IF YOU FORGOT: https://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/ 

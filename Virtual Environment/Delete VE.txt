@@ -1,0 +1,1 @@
+rmvirtualenv name_of_environment

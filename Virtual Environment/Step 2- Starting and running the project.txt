@@ -1,0 +1,11 @@
+#Store your projects
+After you have created your enviroment you need a place holder for you projects so run this command: mkdir projects --> Name of the folder
+
+#Start Django projects
+Run this command: django-admin startproject FYP --> name of project
+ 
+#Run server
+You will notice after you created the django project there is a manage script already created for you, this is used to run the server
+Run this command inside of your created django project which in this case its FYP: python manage.py runserver
+
+After you run the command compy the URL path provided into your web browser
